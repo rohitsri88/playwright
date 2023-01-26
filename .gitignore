@@ -8,10 +8,13 @@ logsgit
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+playwright-report/
+test-results/
 
 # Dependency directories
 node_modules/
 jspm_packages/
+
 
 # Optional npm cache directory
 .npm

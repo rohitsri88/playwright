@@ -14,7 +14,7 @@ test("Expect to have 3 packages for subscription", async ({ page }) => {
   // Verify that number equals 2
   expect(number_subscriptions_allowed).toBe(1)
 });
-test("Expect to have 3 packages for subscription1", async ({ page }) => {
+test("Expect to have 3 packages for subscription2", async ({ page }) => {
 
   // Go to the Droplets product page of DigitalOcean web page
   await page.goto(endpoint.DIGITAL_OCEAN_URL);
